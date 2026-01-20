@@ -198,7 +198,6 @@ p, a {
   }
 }
 
-
 @media (max-width: 900px) {
   .about-content {
     grid-template-columns: 1fr;
@@ -264,7 +263,6 @@ p, a {
 .slider img:hover {
   transform: scale(1.05);
 }
-
 
 .slider-btn {
   position: absolute;
