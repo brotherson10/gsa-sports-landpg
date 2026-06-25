@@ -2,133 +2,154 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Agenciamento e assessoria esportiva para atletas de futebol da base ao profissional. Gestão de carreira, network e oportunidades no mercado nacional e internacional.">
-<meta name="keywords" content="agenciamento esportivo, futebol, assessoria esportiva, atletas, carreira no futebol">
-<meta name="author" content="GSA">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <title>GSA – Agenciamento e Assessoria Esportiva</title>
+  <meta name="description" content="GSA Sports: agenciamento e assessoria esportiva para atletas de futebol, conectando talento, carreira e oportunidades." />
+  <meta name="keywords" content="GSA Sports, agenciamento esportivo, assessoria esportiva, futebol, gestão de carreira" />
+  <meta name="author" content="GSA Sports" />
+  <title>GSA Sports | Agenciamento e Assessoria Esportiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="site-glow"></div>
 
-  <header class="header">
+  <header class="header" id="header">
     <div class="container header-content">
-      <img src="./assets/icone-branca-GSA-sem-fundo.png" alt="Logo GSA" class="logo">
+      <a href="#inicio" class="brand" aria-label="GSA Sports">
+        <img src="./assets/icone-branca-GSA-sem-fundo.png" alt="Logo GSA Sports" class="logo" />
+        <span>GSA Sports</span>
+      </a>
 
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#sobre">Sobre Nós</a></li>
-          <li><a href="#network">Network & Business</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#network">Network</a>
+        <a href="#contato">Contato</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-content">
-      <h1>Gestão de Carreiras</h1>
-      <p>
-        Agenciamento e assessoria esportiva para atletas da base ao profissional,
-        conectando talento, oportunidades e performance.
-      </p>
-    </div>
-  </section>
-  
-  <section class="about" id="sobre">
-    <div class="container about-content">
-
-      <div class="about-text">
-        <h2>Sobre a GSA</h2>
-        <p>
-          A GSA é uma empresa especializada em agenciamento e assessoria esportiva,
-          com foco no desenvolvimento de atletas de futebol, desde as categorias
-          de base até o alto rendimento profissional.
-        </p>
-        <p>
-          Atuamos de forma estratégica na gestão de carreira, planejamento esportivo,
-          suporte contratual e conexão com clubes, agentes, investidores e parceiros
-          do mercado nacional e internacional.
-        </p>
-        <p>
-          Nosso compromisso é potencializar talentos, criar oportunidades sólidas
-          e construir trajetórias sustentáveis dentro e fora de campo.
-        </p>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-slider" aria-hidden="true">
+        <div class="hero-slide active" style="background-image: url('./assets/parceria-cruzeiro.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('./assets/parceria-atletico-mg2.jpg')"></div>
+        <div class="hero-slide" style="background-image: url('./assets/america.jpg')"></div>
       </div>
+      <div class="hero-grid"></div>
 
-      <div class="about-images">
-        <div class="images-top">
-          <img src="./assets/parceria-gomes-velop4.jpg" loading="lazy" alt="Parceiro Velop4">
-          <img src="./assets/parceria-intersg.jpg" loading="lazy" alt="Parceiro InterSG">
-        </div>
-        <div class="images-bottom">
-          <img src="./assets/parceria-atletico-mg2.jpg" loading="lazy" alt="Parceiro AtleticoMG">
+      <div class="container hero-content reveal">
+        <span class="eyebrow">Agenciamento • carreira • oportunidades</span>
+        <h1>Talentos preparados para o próximo nível.</h1>
+        <p>
+          Gestão esportiva estratégica para atletas de futebol, da base ao profissional,
+          com foco em carreira, conexão e evolução dentro e fora de campo.
+        </p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn btn-primary">Falar com a GSA</a>
+          <a href="#network" class="btn btn-ghost">Ver network</a>
         </div>
       </div>
 
-    </div>
-  </section>
+      <div class="slide-dots" id="slideDots" aria-label="Controle do slide"></div>
+    </section>
 
-<section class="network" id="network">
-  <div class="container">
-    <h2>Network & Business</h2>
+    <section class="about section" id="sobre">
+      <div class="container split">
+        <div class="section-copy reveal">
+          <span class="tag">Sobre a GSA</span>
+          <h2>Assessoria simples, direta e focada em resultado.</h2>
+          <p>
+            A GSA Sports atua no desenvolvimento de atletas de futebol, conectando
+            potencial esportivo a oportunidades reais no mercado nacional e internacional.
+          </p>
+          <p>
+            O trabalho envolve planejamento de carreira, suporte estratégico, relacionamento
+            com clubes e parceiros, além de uma visão profissional para cada etapa da trajetória.
+          </p>
+        </div>
 
-    <div class="slider-wrapper">
-      <button class="slider-btn left" id="prevBtn">&#10094;</button>
-
-      <div class="slider" id="slider">
-        <img src="./assets/parceria-sport.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/comp-isg.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/america.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/luiz-america.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/b-a-r.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/parceria-cruzeiro.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/ca-crb.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/caio-isg.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/le-isg.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/rauan-isg.jpg" loading="lazy" alt="img parceira">
-        <img src="./assets/silmar-isg.jpg" loading="lazy" alt="img parceira">
+        <div class="feature-card reveal">
+          <img src="./assets/parceria-intersg.jpg" loading="lazy" alt="Parceria esportiva GSA" />
+          <div class="feature-content">
+            <span>DNA GSA</span>
+            <h3>Performance com direção.</h3>
+            <p>Menos ruído, mais clareza: carreira, network e posicionamento.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <button class="slider-btn right" id="nextBtn">&#10095;</button>
-    </div>
-  </div>
-</section>
+    <section class="pillars section">
+      <div class="container cards-grid">
+        <article class="mini-card reveal">
+          <span>01</span>
+          <h3>Carreira</h3>
+          <p>Planejamento esportivo para decisões mais seguras.</p>
+        </article>
+        <article class="mini-card reveal">
+          <span>02</span>
+          <h3>Network</h3>
+          <p>Conexão com clubes, agentes e parceiros estratégicos.</p>
+        </article>
+        <article class="mini-card reveal">
+          <span>03</span>
+          <h3>Oportunidades</h3>
+          <p>Posicionamento para evolução dentro do mercado.</p>
+        </article>
+      </div>
+    </section>
 
-</section>
+    <section class="network section" id="network">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="tag">Network & Business</span>
+          <h2>Conexões que movimentam carreiras.</h2>
+        </div>
+
+        <div class="slider-wrapper reveal">
+          <button class="slider-btn left" id="prevBtn" aria-label="Imagem anterior">&#10094;</button>
+          <div class="slider" id="slider">
+            <img src="./assets/braw-sg.jpg" loading="lazy" alt="Parceria GSA" />
+            <img src="./assets/parceria-sport.jpg" loading="lazy" alt="Parceria GSA" />
+            <img src="./assets/comp-isg.jpg" loading="lazy" alt="Atleta GSA" />
+            <img src="./assets/america.jpg" loading="lazy" alt="Clube parceiro" />
+            <img src="./assets/luiz-america.jpg" loading="lazy" alt="Atleta em clube" />
+            <img src="./assets/b-a-r.jpg" loading="lazy" alt="Atleta em campo" />
+            <img src="./assets/parceria-cruzeiro.jpg" loading="lazy" alt="Parceria Cruzeiro" />
+            <img src="./assets/vini-cuiaba.jpg" loading="lazy" alt="Atleta Cuiabá" />
+            <img src="./assets/caio-isg.jpg" loading="lazy" alt="Atleta GSA" />
+            <img src="./assets/le-isg.jpg" loading="lazy" alt="Atleta GSA" />
+            <img src="./assets/rauan-isg.jpg" loading="lazy" alt="Atleta GSA" />
+            <img src="./assets/silmar-isg.jpg" loading="lazy" alt="Atleta GSA" />
+          </div>
+          <button class="slider-btn right" id="nextBtn" aria-label="Próxima imagem">&#10095;</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer" id="contato">
-  <div class="container footer-content">
-
-    <div class="footer-brand">
-      <img src="./assets/icone-branca-GSA-sem-fundo.png" alt="GSA">
-      <p>
-        Para parcerias, oportunidades de negócios ou mais informações sobre nosso trabalho no desenvolvimento de atletas, entre em contato conosco.
-      </p>
+    <div class="container footer-content reveal">
+      <div>
+        <img src="./assets/logo-branca-GSA-sem-fundo.png" alt="GSA Sports" class="footer-logo" />
+        <p>Agenciamento e assessoria esportiva para atletas que buscam evolução com estratégia.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#network">Network</a>
+        <a href="mailto:assessoriaesportivagsa@gmail.com">assessoriaesportivagsa@gmail.com</a>
+        <a href="https://instagram.com/gsasportss" target="_blank" rel="noopener">@gsasportss</a>
+      </div>
     </div>
+    <div class="footer-bottom">© 2026 GSA Sports. Todos os direitos reservados.</div>
+  </footer>
 
-    <div class="footer-links">
-      <h4>Institucional</h4>
-      <a href="#sobre">Sobre Nós</a>
-      <a href="#network">Network & Business</a>
-      <a href="#contato">Contato</a>
-    </div>
-
-    <div class="footer-contact">
-      <h4>Contato</h4>
-      <a href=""><p>assessoriaesportivagsa@gmail.com</p></a>
-      <a href="https://instagram.com/gsasportss" target="_blank">@gsasportss</a>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 GSA – Todos os direitos reservados</p>
-  </div>
-</footer>
-
-
+  <script src="./scripts.js"></script>
 </body>
-<script src="./scripts.js"></script>
 </html>
