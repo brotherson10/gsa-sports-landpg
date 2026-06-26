@@ -45,7 +45,8 @@ The project is available at:
 
 ## 📷 Preview
 
-<img width="1516" height="782" alt="sohard-energia-solar" src="https://github.com/user-attachments/assets/29de6ae4-2d20-4df3-a71f-7bb44817f7b3" />
+<img width="1516" height="786" alt="gsa-sports" src="https://github.com/user-attachments/assets/8f2d22ac-7daf-45e4-8e29-55b10c249b2f" />
+
 
 ## 📬 Contact
 
