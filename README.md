@@ -45,8 +45,8 @@ The project is available at:
 
 ## 📷 Preview
 
-*<img width="1179" height="591" alt="gsa" src="https://github.com/user-attachments/assets/6867fb95-cdbf-43f3-afa9-a5d46572129c" />
-*
+<img width="1516" height="786" alt="gsa-sports" src="https://github.com/user-attachments/assets/8f2d22ac-7daf-45e4-8e29-55b10c249b2f" />
+
 
 ## 📬 Contact
 
