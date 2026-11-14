@@ -1,56 +1,37 @@
-# GSA – Sports Agency & Career Management
+# GSA Sports | Assessoria Esportiva
 
-Institutional landing page developed for a **sports agency and career management company**, focused on football players from youth academy to professional level.
+Site oficial da **GSA Sports (GSA Assessoria Esportiva)**, empresa de agenciamento, intermediação e representação de atletas de futebol, com acompanhamento desde as categorias de base.
 
-This project was created as a **personal and professional case study** to practice and demonstrate front-end development skills, following modern layout, responsiveness and clean code principles.
+O canal principal da GSA é o Instagram [@gsasportss](https://www.instagram.com/gsasportss/). O site apresenta a empresa e leva o visitante até lá.
 
-## 🔎 Overview
+🔗 **No ar:** https://gsa-sports.netlify.app/
 
-The landing page includes:
-- Brand-aligned visual identity
-- Clear and institutional structure
-- Well-defined content sections
-- Fully responsive layout for desktop and mobile
+## Seções
 
-## 📌 Features
+- Hero com fotos reais dos atletas e das visitas a clubes
+- Faixa "Clubes onde a GSA já esteve"
+- Sobre a GSA
+- Como trabalhamos: carreira, network e oportunidades
+- Bastidores: mosaico de fotos com legenda
+- Instagram em destaque, que é o canal de contato
 
-- Fixed header with anchor navigation
-- Hero section with institutional message
-- “About Us” section with image composition layout
-- “Network & Business” image slider with infinite scroll
-- Complete institutional footer
-- Responsive design
-- Image slider built with pure JavaScript (no libraries)
+## Tecnologia
 
-## 🛠️ Technologies Used
+- HTML, CSS e JavaScript puros, sem framework nem build
+- Fontes Barlow Condensed e Inter (Google Fonts)
+- Fotos em WebP comprimidas, com `width`/`height` e carregamento preguiçoso
+- SEO: `title`, `meta description`, Open Graph com imagem de compartilhamento e dados estruturados `Organization` (JSON-LD)
+- Deploy automático na Netlify a cada push na `main`
 
-- HTML5
-- CSS3 (Flexbox and Grid)
-- JavaScript
-- Google Fonts
+## Estrutura
 
-## 🎯 Project Purpose
+```
+index.html       página única
+styles.css       estilos (tokens de cor no :root)
+scripts.js       menu mobile, cabeçalho no scroll e animação de entrada
+assets/img/      fotos, logo, favicons e imagem de compartilhamento
+```
 
-This project was developed as a **portfolio and learning project**, focusing on:
-- Front-end best practices
-- Clean and organized code
-- Responsive design
-- Professional UI layout
-- Real-world deploy readiness
+## Desenvolvimento
 
-## 🚀 Live Version
-
-The project is available at:  
-👉 **(https://gsa-sports.netlify.app/)**
-
-## 📷 Preview
-
-<img width="1516" height="786" alt="gsa-sports" src="https://github.com/user-attachments/assets/8f2d22ac-7daf-45e4-8e29-55b10c249b2f" />
-
-
-## 📬 Contact
-
-Developed by **Brotherson A.**  
-- LinkedIn: https://www.linkedin.com/in/brotherson  
-- GitHub: https://github.com/brotherson10
-
+Desenvolvido por Brotherson A.
