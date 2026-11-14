@@ -30,7 +30,7 @@ GSA Sports, empresa de agenciamento, intermediação e representação de atleta
 - Sem numeração (01, 02...) nas seções nem nos cards, e sem o traço antes do texto do topo
 
 ## Pendências
-- Push para publicar (a Netlify publica automaticamente)
+- Nenhuma. Publicado em 14/11/2026
 
 ## Histórico
 - 06/2026: versão inicial como projeto de portfólio
