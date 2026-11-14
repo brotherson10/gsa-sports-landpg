@@ -10,8 +10,8 @@ GSA Sports, empresa de agenciamento, intermediação e representação de atleta
 
 ## Stack e deploy
 - HTML, CSS e JS puros (`index.html`, `styles.css`, `scripts.js`), sem framework
-- Fonte: Inter (Google Fonts)
-- Deploy: Netlify, https://gsa-sports.netlify.app/
+- Fontes: Barlow Condensed e Inter (Google Fonts)
+- Deploy: Netlify (automático no push da `main`). Domínio oficial: https://gsa-sports.com/ (o `www` redireciona; gsa-sports.netlify.app é o endereço interno da Netlify)
 - Repositório: https://github.com/brotherson10/gsa-sports-landpg
 
 ## Identidade

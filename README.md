@@ -4,7 +4,7 @@ Site oficial da **GSA Sports (GSA Assessoria Esportiva)**, empresa de agenciamen
 
 O canal principal da GSA é o Instagram [@gsasportss](https://www.instagram.com/gsasportss/). O site apresenta a empresa e leva o visitante até lá.
 
-🔗 **No ar:** https://gsa-sports.netlify.app/
+🔗 **No ar:** https://gsa-sports.com/
 
 ## Seções
 
