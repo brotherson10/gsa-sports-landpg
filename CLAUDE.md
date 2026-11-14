@@ -23,10 +23,9 @@ GSA Sports, empresa de agenciamento, intermediação e representação de atleta
 
 ## Conteúdo real disponível
 - Fotos em `assets/img/` (WebP e alguns JPG já leves): sócios em visita a clubes (Cruzeiro, Atlético-MG, América-MG, Sport, Inter SG), atletas em campo (Cuiabá, Sport, Inter SG, América-MG, Mamoré) e assinatura de contrato no Cuiabá
-- `victor-hulk*.webp` é um atleta do Inter SG, não o jogador Hulk
-- Fotos ainda não usadas no site: b-a-r, braw-sg, le-isg, mamede-gsa, parceria-gomes-velop4, silmar-isg
+- Fotos ainda não usadas no site: b-a-r, braw-sg, mamede-gsa, parceria-gomes-velop4
 - A GSA atende atletas da base e do profissional ("Futebol de base e profissional")
-- A GSA já esteve em muitos clubes, principalmente em Alagoas, Minas Gerais, São Paulo e Rio de Janeiro. A faixa abaixo do hero mostra os estados, não uma lista de clubes
+- A GSA já esteve em muitos clubes, principalmente em Alagoas, Minas Gerais, São Paulo e Rio de Janeiro, além de Pernambuco e Mato Grosso. A faixa abaixo do hero mostra esses 6 estados, não uma lista de clubes
 - Contato: o Instagram @gsasportss é o canal principal. É decisão dos sócios: muitos atletas entravam em contato direto pedindo avaliação, e isso atrapalhava. Sem WhatsApp. O email assessoriaesportivagsa@gmail.com fica só no rodapé
 - Sem numeração (01, 02...) nas seções nem nos cards, e sem o traço antes do texto do topo
 

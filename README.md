@@ -9,7 +9,7 @@ O canal principal da GSA é o Instagram [@gsasportss](https://www.instagram.com/
 ## Seções
 
 - Hero com fotos reais dos atletas e das visitas a clubes
-- Faixa "Presença em clubes de" Alagoas, Minas Gerais, São Paulo e Rio de Janeiro
+- Faixa "Presença em clubes de" Alagoas, Minas Gerais, São Paulo, Rio de Janeiro, Pernambuco e Mato Grosso
 - Sobre a GSA
 - Como trabalhamos: carreira, network e oportunidades
 - Bastidores: mosaico de fotos com legenda
