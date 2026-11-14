@@ -1,6 +1,6 @@
 # GSA Sports | Assessoria Esportiva
 
-Site oficial da **GSA Sports (GSA Assessoria Esportiva)**, empresa de agenciamento, intermediação e representação de atletas de futebol, com acompanhamento desde as categorias de base.
+Site oficial da **GSA Sports (GSA Assessoria Esportiva)**, empresa de agenciamento, intermediação e representação de atletas de futebol, da base ao profissional.
 
 O canal principal da GSA é o Instagram [@gsasportss](https://www.instagram.com/gsasportss/). O site apresenta a empresa e leva o visitante até lá.
 
@@ -9,7 +9,7 @@ O canal principal da GSA é o Instagram [@gsasportss](https://www.instagram.com/
 ## Seções
 
 - Hero com fotos reais dos atletas e das visitas a clubes
-- Faixa "Clubes onde a GSA já esteve"
+- Faixa "Presença em clubes de" Alagoas, Minas Gerais, São Paulo e Rio de Janeiro
 - Sobre a GSA
 - Como trabalhamos: carreira, network e oportunidades
 - Bastidores: mosaico de fotos com legenda

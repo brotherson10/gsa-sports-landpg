@@ -189,24 +189,16 @@ h2 em {
     color: var(--muted);
 }
 
-.eyebrow::before {
-    content: "";
-    width: 28px;
-    height: 2px;
-    background: var(--gold);
+.eyebrow {
+    color: var(--gold);
 }
 
-.tag b {
+.tag {
     color: var(--gold);
-    font-weight: 700;
 }
 
 .tag-dark {
-    color: rgba(10, 10, 11, .7);
-}
-
-.tag-dark b {
-    color: var(--ink);
+    color: rgba(10, 10, 11, .72);
 }
 
 /* ---------- Botões ---------- */
@@ -448,17 +440,9 @@ h2 em {
     transform: translateY(-4px);
 }
 
-.card-num {
-    font-family: var(--display);
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--gold);
-    letter-spacing: .08em;
-}
-
 .card h3 {
     font-size: 2rem;
-    margin: 14px 0 12px;
+    margin-bottom: 12px;
 }
 
 .card p {
